@@ -1,4 +1,4 @@
-package com.eky.hello.endpoint.rest.controller.health;
+package com.eky.hello.endpoint.rest.controller.hello;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-public class PingController {
+public class HelloController {
 
   public static final ResponseEntity<String> OK = new ResponseEntity<>("OK", HttpStatus.OK);
   public static final ResponseEntity<String> KO =
